@@ -47,22 +47,6 @@ body {
   line-height: 0.5rem;
 }
 
-.btn-primary {
-  color: var(--cf-dark);
-  background-color: var(--cf-highlight);
-  border-color: var(--cf-highlight);
-  transition: filter, 0.2s;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
-  filter: brightness(0.9) !important;
-  color: var(--cf-dark);
-  background-color: var(--cf-highlight);
-  border-color: var(--cf-highlight);
-}
-
 .nav-link {
   color: var(--cf-light) !important;
 }
