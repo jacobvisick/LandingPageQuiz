@@ -77,11 +77,6 @@ body {
   body {
     background-image: url("/img/LandingPage_768.png");
   }
-
-  #mainText {
-    align-items: flex-start !important;
-    padding-top: 4rem;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -99,6 +94,29 @@ body {
     font-size: 1rem;
     letter-spacing: 0.03rem;
     line-height: 0.8rem;
+  }
+}
+
+/* Medium Devices (tablets, 768px and up) in portrait mode */
+@media (min-width: 767.98px) and (orientation: portrait) {
+  body {
+    background-image: url("/img/LandingPage_992.png");
+  }
+
+  #titleText {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+
+  #subtitleText {
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    line-height: 0.8rem;
+  }
+
+  #mainText {
+    align-items: flex-start !important;
+    padding-top: 4rem;
   }
 }
 
