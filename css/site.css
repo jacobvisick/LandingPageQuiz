@@ -117,6 +117,7 @@ body {
 @media (min-width: 1199.98px) {
   body {
     background-image: url("/img/LandingPage_1920.png");
+    background-size: cover;
   }
 
   #titleText {
